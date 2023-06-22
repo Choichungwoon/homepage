@@ -1,0 +1,143 @@
+@charset 'utf-8';
+
+.top{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/car.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.center-text{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    overflow: hidden;
+    width: 900px;
+}
+.center-text>h1{
+    color: #fff;
+    font-size: 6em;
+    letter-spacing: 10px;
+}
+.center-text>p{
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 10px;
+}
+
+.contents{
+    background-color: aliceblue;
+}
+
+.middle-content{
+    width: 1700px;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.middle-left,.middle-right{
+    margin-bottom: 100px;
+    
+}
+.middle-left{
+    width: 900px;
+    box-sizing: border-box;
+    margin-right: 100px;
+}
+.middle-left>img{
+    width: 900px;
+}
+
+
+
+.left-text{
+    margin-top: 30px;
+}
+.left-text>p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+}
+.left-text>h1{
+    font-size: 3em;
+    letter-spacing: 20px;
+}
+
+
+
+
+.middle-right{
+    width: 700px;
+    box-sizing: border-box;
+}
+.middle-right>img{
+    display: block;
+    margin-top: 100px;
+}
+.right-text{
+    text-align: center;
+}
+.right-text>p:nth-child(1){
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.right-text>h1{
+    font-size: 3em;
+    letter-spacing: 20px;
+}
+
+
+.middle-right::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+
+
+
+.middle-bottom{
+    width: 1700px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.middle-bottom>h1,.middle-bottom>p{
+    text-align: center;
+}
+.middle-bottom>h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    letter-spacing: 10px;
+}
+.middle-bottom>p{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+
+.middle-bottom>ul>li{
+    float: left;
+    width: 530px;
+}
+.middle-bottom>ul>li img{
+    width: 530px;
+    height: 400px;
+}
+.middle-bottom>ul>li:nth-child(1),.middle-bottom>ul>li:nth-child(2){
+    margin-right: 51px;
+}
+
+.middle-bottom>ul>li>a>p:nth-child(2){
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+
+
